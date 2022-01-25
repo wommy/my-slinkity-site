@@ -1,10 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@11ty/eleventy': ^1.0.0-beta.8
+  '@11ty/eleventy': ^1.0.0
   react: ^17.0.2
   react-dom: ^17.0.2
-  slinkity: ^0.4.1
+  slinkity: ^0.5.0
 
 dependencies:
   react: 17.0.2
@@ -12,7 +12,7 @@ dependencies:
 
 devDependencies:
   '@11ty/eleventy': 1.0.0
-  slinkity: 0.4.4_c1fe87f73d70d8e087787d786e9215f3
+  slinkity: 0.5.0_c1fe87f73d70d8e087787d786e9215f3
 
 packages:
 
@@ -401,10 +401,6 @@ packages:
     resolution: {integrity: sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==}
     dev: true
 
-  /boolbase/1.0.0:
-    resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
-    dev: true
-
   /brace-expansion/1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
     dependencies:
@@ -658,21 +654,6 @@ packages:
   /cookie/0.4.1:
     resolution: {integrity: sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==}
     engines: {node: '>= 0.6'}
-    dev: true
-
-  /css-select/4.2.1:
-    resolution: {integrity: sha512-/aUslKhzkTNCQUB2qTX84lVmfia9NyjP3WpDGtj/WxhwBzWBYUV3DgUpurHTme8UTPcPlAD1DJ+b0nN/t50zDQ==}
-    dependencies:
-      boolbase: 1.0.0
-      css-what: 5.1.0
-      domhandler: 4.3.0
-      domutils: 2.8.0
-      nth-check: 2.0.1
-    dev: true
-
-  /css-what/5.1.0:
-    resolution: {integrity: sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==}
-    engines: {node: '>= 6'}
     dev: true
 
   /cssesc/3.0.0:
@@ -1367,11 +1348,6 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /he/1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
-    dev: true
-
   /html-dom-parser/1.0.4:
     resolution: {integrity: sha512-ThM/vK/18R5/cVB9UsqhNqbJU7LE2BmSA7C/FjYV88wIDW75GSUpvSE/JxE4mJ8bOuU6Kp15/I1giM2JbD+ieA==}
     dependencies:
@@ -1880,13 +1856,6 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /node-html-parser/5.2.0:
-    resolution: {integrity: sha512-fmiwLfQu+J2A0zjwSEkztSHexAf5qq/WoiL/Hgo1K7JpfEP+OGWY5maG0kGaM+IFVdixF/1QbyXaQ3h4cGfeLw==}
-    dependencies:
-      css-select: 4.2.1
-      he: 1.2.0
-    dev: true
-
   /nopt/5.0.0:
     resolution: {integrity: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==}
     engines: {node: '>=6'}
@@ -1898,12 +1867,6 @@ packages:
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /nth-check/2.0.1:
-    resolution: {integrity: sha512-it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==}
-    dependencies:
-      boolbase: 1.0.0
     dev: true
 
   /nunjucks/3.2.3_chokidar@3.5.3:
@@ -2500,8 +2463,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /slinkity/0.4.4_c1fe87f73d70d8e087787d786e9215f3:
-    resolution: {integrity: sha512-yYKIb6oxqjaOzO9h2rPMvhHCb82ZKySh2WpfWcWO3ZPZjKJcUAjV4dik2OE1ieeN3JQAqzMmYAx2y77Zl/2uWA==}
+  /slinkity/0.5.0_c1fe87f73d70d8e087787d786e9215f3:
+    resolution: {integrity: sha512-J7yJwav/YeV2NbUkGXh+5wgoPMO3WY+dGWUrx336R1PqkxBI93mCkERBWHWYfY1lTi8NqtXzZQlmjJmXjXczJQ==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -2515,9 +2478,9 @@ packages:
       glob: 7.2.0
       html-react-parser: 1.4.5_react@17.0.2
       javascript-stringify: 2.1.0
-      node-html-parser: 5.2.0
       require-from-string: 2.0.2
       sass: 1.49.0
+      uuid: 8.3.2
       vite: 2.7.13_sass@1.49.0
     transitivePeerDependencies:
       - less
@@ -2764,6 +2727,11 @@ packages:
   /utils-merge/1.0.1:
     resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
     engines: {node: '>= 0.4.0'}
+    dev: true
+
+  /uuid/8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
     dev: true
 
   /vite/2.7.13_sass@1.49.0:
